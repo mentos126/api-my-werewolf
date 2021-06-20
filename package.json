@@ -1,0 +1,38 @@
+{
+  "name": "my-werewolf",
+  "version": "1.0.0",
+  "description": "My werewolf",
+  "main": "index.js",
+  "scripts": {
+    "start-no-deprecation": "nodemon --no-deprecation app.js",
+    "start": "nodemon app.js"
+  },
+  "type": "module",
+  "keywords": [
+    "My werewolf"
+  ],
+  "author": "Anonymous",
+  "repository": {
+    "type": "git"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.2",
+    "http-errors": "^1.7.3",
+    "lodash.shuffle": "^4.2.0",
+    "mongoose": "4.13.19",
+    "nodemon": "^1.17.1",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
